@@ -1,0 +1,48 @@
+name: movie_night
+description: A Movie Night Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.4.0
+  nima: ^1.0.2
+  flutter_staggered_grid_view: "^0.2.7"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - assets/icons/girl.png
+   - assets/icons/boy.png
+   - assets/flare/milky_way.nma
+   - assets/flare/Milky Way.png
+   - assets/images/avengers.jpg
+   - assets/images/border.jpg
+   - assets/images/creed.jpg
+   - assets/images/fantastic.jpg
+   - assets/images/isle.jpg
+   - assets/images/slave.jpg
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Light.ttf
+        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: assets/fonts/OpenSans-SemiBold.ttf
+          weight: 500
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
+
