@@ -2,6 +2,12 @@
 
 A Movie Night Flutter application.
 
+##Screen
+
+<p>
+	<img src="https://github.com/sad1996/movie_night/blob/master/screens/movienight.gif?raw=true" width="250" height="443"/>
+</p>
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
